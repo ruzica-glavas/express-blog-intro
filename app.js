@@ -14,7 +14,7 @@ app.use(express.static('public'));
 app.get("/", (req, res) => {
 res.send(`Server del mio blog`);})
 
-app.get("/api/bacheca", (req, res) => {
+app.get("/bacheca", (req, res) => { // potrei mettere anche /api per far capire all'utente dove si trova l'oggetto
 
 
    const bacheca = [{
