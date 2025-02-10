@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/ruzica-glavas/express-blog-intro/issues"
   },
-  "homepage": "https://github.com/ruzica-glavas/express-blog-intro#readme"
+  "homepage": "https://github.com/ruzica-glavas/express-blog-intro#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
 }
